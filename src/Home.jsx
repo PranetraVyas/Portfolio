@@ -1,4 +1,5 @@
 import Silk from "./Componets/Silk/Silk";
+import Box from "./Componets/Box/Box";
 
 function Home() {
     return (
@@ -12,8 +13,8 @@ function Home() {
                     rotation={0}
                 />
             </div>
-            <div>
-                
+            <div className="flex flex-col justify-center items-center h-screen w-screen">
+                <Box />
             </div>
         </div>
     )

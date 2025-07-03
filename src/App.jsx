@@ -1,6 +1,6 @@
 import { Link, Outlet } from 'react-router-dom'
 import './App.css'
-import Getin from './Componets/Getin.jsx/Getin'
+import Getin from './Componets/Getin/Getin'
 import Silk from './Componets/Silk/Silk'
 import Texthero from './Componets/Texthero.jsx/Texthero'
 
@@ -19,7 +19,7 @@ function App() {
       <div className='flex flex-col justify-center items-center h-screen w-screen mt-3'>
         <Texthero />
         <div className='mt-15'>
-          <Link to="PranetraVyas">
+          <Link to="PranetraVyas" >
             <Getin />
           </Link>
         </div>
