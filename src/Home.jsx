@@ -7,7 +7,7 @@ function Home() {
             <div className="absolute top-0 left-0 w-full h-full -z-10">
                 <Silk
                     speed={5}
-                    scale={1}
+                    scale={0.5}
                     color="#7B7481"
                     noiseIntensity={1.5}
                     rotation={0}
